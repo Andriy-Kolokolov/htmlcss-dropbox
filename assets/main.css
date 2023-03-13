@@ -4,10 +4,27 @@
     box-sizing: border-box;
 }
 
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
 ul li {
     list-style: none;
 }
 
 .navbar-header .links li {
     cursor: pointer;
+}
+
+.navbar-header {
+    background-color: white;
+}
+
+.jumbo {
+    background-color: #b4d0e7;
+}
+
+.jumbo .title {
+    font-size: 2rem;
+    font-weight: bold;
 }

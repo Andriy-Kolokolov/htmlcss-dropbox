@@ -46,3 +46,50 @@
     display: flex;
     flex-direction: row;
 }
+
+/*  JUMBO   */
+.jumbo {
+    display: flex;
+    justify-content: center;
+}
+
+.jumbo .container {
+    width: 70%;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+    padding: 4rem;
+}
+
+.jumbo .box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.jumbo .box .content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.jumbo .box .content.left {
+    flex: 0 1 25%;
+}
+.jumbo .box .content.right {
+    flex: 0 1 75%;
+}
+
+
+.jumbo .content.left .arrow-down {
+    max-width: 15%;
+}
+
+.jumbo .content.right img {
+    margin-bottom: -10rem;
+    max-width: 100%;
+}
