@@ -1,9 +1,6 @@
-.header {
-    height: 35rem;
-}
 
 .navbar-header {
-    height: 10%;
+    height: 4rem;
     display: flex;
     justify-content: space-between;
 }
@@ -84,7 +81,6 @@
     flex: 0 1 75%;
 }
 
-
 .jumbo .content.left .arrow-down {
     max-width: 15%;
 }
@@ -92,4 +88,9 @@
 .jumbo .content.right img {
     margin-bottom: -10rem;
     max-width: 100%;
+}
+
+/*  SECTION PRICES  */
+.section.prices .container {
+    width: 60%;
 }
