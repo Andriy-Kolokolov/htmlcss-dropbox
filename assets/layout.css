@@ -1,0 +1,35 @@
+.header {
+    height: 35rem;
+}
+
+.navbar-header {
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-header * {
+    height: 100%;
+}
+
+.logo img {
+    max-height: 35%;
+}
+
+.navbar-header .side {
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar-header .side div *,
+.navbar-header .side .links *{
+    display: flex;
+    align-items: center;
+    margin-inline: .5rem;
+    padding-inline: .5rem;
+}
+
+.navbar-header .side .links{
+    display: flex;
+    flex-direction: row;
+}
