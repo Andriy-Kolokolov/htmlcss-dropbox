@@ -1,3 +1,9 @@
-.navbar-header .links li:hover {
+.navbar-header .side.left .links li:hover,
+.navbar-header .side.right .links:first-child li:hover {
+    transition: .3s;
     background-color: rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover {
+    text-decoration: underline;
 }

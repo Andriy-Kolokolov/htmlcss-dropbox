@@ -1,0 +1,15 @@
+.btn {
+    cursor: pointer;
+    height: 1.5rem;
+    padding: 0.5rem;
+}
+
+.btn.blue {
+    color: white;
+    background-color: #0061ff;
+}
+
+.btn.white {
+    color: black;
+    background-color: white;
+}

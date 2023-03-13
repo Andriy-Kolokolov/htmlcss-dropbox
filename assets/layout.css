@@ -19,14 +19,27 @@
 .navbar-header .side {
     display: flex;
     flex-direction: row;
+    margin-inline: 1rem;
+    gap: 1.5rem;
 }
 
 .navbar-header .side div *,
-.navbar-header .side .links *{
+.navbar-header .side .links * {
     display: flex;
     align-items: center;
-    margin-inline: .5rem;
-    padding-inline: .5rem;
+}
+
+.navbar-header .side.right .login-signup {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-header .links li {
+    padding-inline: 1rem;
+}
+
+.navbar-header .links.login-signup > li {
+    cursor: auto;
 }
 
 .navbar-header .side .links{
