@@ -72,3 +72,8 @@ section .subscription-choice-container .option {
 .subscription-details .privileges div:first-child {
     font-weight: bold;
 }
+
+section.client-reviews .container h1 {
+    font-size: 2rem;
+    margin-top: 1.5rem;
+}

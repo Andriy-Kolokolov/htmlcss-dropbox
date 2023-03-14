@@ -215,3 +215,19 @@ section.dropbox-functionality .container {
 .dropbox-functionality .container .box * {
     margin-bottom: 1rem;
 }
+
+/*  client reviews section  */
+section.client-reviews {
+    display: flex;
+    justify-content: center;
+}
+
+section.client-reviews .container {
+    width: var(--main-container-size);
+    display: flex;
+    flex-direction: column;
+}
+
+section.client-reviews .container * {
+    margin-top: 1.5rem;
+}
