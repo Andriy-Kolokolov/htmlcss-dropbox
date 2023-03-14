@@ -2,16 +2,15 @@
     cursor: pointer;
     padding: 0.5rem;
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 
-.btn.blue {
+.btn .blue {
     color: white;
     background-color: #0061ff;
 }
 
-.btn.white {
+.btn .white {
     color: black;
     background-color: white;
 }
