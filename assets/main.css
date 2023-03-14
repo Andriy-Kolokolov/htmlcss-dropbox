@@ -34,29 +34,37 @@ section.prices .title {
     font-weight: bold;
 }
 
-section.prices .subscription-box {
-    border: 1px rgba(0, 0, 0, 0.3) solid;
-}
-
 section .subscription-choice-container .option {
     text-align: center;
-    border-width: 1px 1px 0 1px;
-    border-style: solid;
-    border-color: rgba(0, 0, 0, 0.3);
+    /*border-width: 1px 1px 0 1px;*/
+    /*border-style: solid;*/
+    /*border-color: rgba(0, 0, 0, 0.3);*/
 }
 
-.subscription-box hr{
+.subscription-choice-container .box {
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.subscription-choice-container .box .option{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.subscription-details div:nth-child(n+2) {
+    font-size: .9rem;
+}
+
+.subscription-details .pricing div:last-child {
+    color: rgba(0, 0, 0, 0.6);;
+}
+
+.subscription-details hr{
     color: rgba(0, 0, 0, 0.3);
 }
 
-.subscription-box .pricing div:nth-last-child(1) {
-    color: rgba(0, 0, 0, 0.6);
-}
-
-.subscription-box .privileges i {
+.subscription-details .privileges i {
     color: #0061ff;
 }
 
-.subscription-box .privileges div:first-child {
+.subscription-details .privileges div:first-child {
     font-weight: bold;
 }

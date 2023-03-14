@@ -99,47 +99,55 @@ section {
 }
 
 /*  SECTION PRICES  */
-section.prices .container {
-    max-width: 50%;
-}
-
-section.prices .title {
-    margin-bottom: 3rem;
-}
-
-section.prices .container div {
-    padding: .5rem;
-}
-
 section.prices {
     display: flex;
     justify-content: center;
 }
 
-.prices .subscription-period {
+section.prices .container {
+    max-width: 50%;
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+    flex-direction: column;
 }
 
-.prices .subscription-period div {
-    margin-right: 3rem;
+section.prices .container > div {
+    margin-bottom: 3rem;
+}
+
+section.prices .subscription-period {
+    display: flex;
+}
+
+section.prices .subscription-period .radio{
+    padding-right: 2rem;
 }
 
 .subscription-choice-container {
     display: flex;
+    justify-content: center;
+    gap: 2rem;
 }
 
-.subscription-choice-container .subscription-box > div {
+.subscription-choice-container .box {
+    flex: 0 1 33%;
+}
+
+.subscription-choice-container .box > div:first-child {
+    padding: .5rem;
+}
+
+.subscription-choice-container .box > div:last-child {
+    padding: 1.5rem;
+}
+
+.subscription-details div > div {
     margin-bottom: 1rem;
 }
 
-.subscription-box div {
-    justify-content: center;
-}
-
-.subscription-box hr {
-    margin-left: .5rem;
-    width: 20%;
+.subscription-details hr {
+    max-width: 20%;
+    margin-bottom: 1rem;
 }
 
 
