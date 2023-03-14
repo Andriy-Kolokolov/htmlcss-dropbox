@@ -83,7 +83,7 @@ section.client-reviews .container h1 {
     filter: invert(100%);
 }
 
-    /*  box left side colors  */
+    /*  box left side  */
 .design-it .box-big.left .box-small:first-child {
     background-color: #a1d19a;
     border: .8rem solid #cfe7cb;
@@ -96,4 +96,36 @@ section.client-reviews .container h1 {
 }
 .design-it .box-big.left .box-small:last-child {
     background-color: #fd1c1c;
+}
+
+    /*  box middle side  */
+.design-it .box-big.middle {
+    background-color: #e7e7e7;
+}
+.design-it .box-big.middle hr {
+    color: rgba(0, 0, 0, 0.3);
+}
+
+    /*  box right side  */
+.design-it .box-big.right .box-small:first-child {
+    background-color: #d3001f;
+}
+.design-it .box-big.right .box-small:nth-child(2) {
+    background-color: #b3cee5;
+}
+.design-it .box-big.right .box-small:nth-child(3) {
+    background-color: #0d2480;
+}
+.design-it .box-big.right .box-small:last-child {
+    background-color: #fdd630;
+}
+
+    /*  container bot color  */
+.design-it .container-bot {
+    background-color: #b3cee5;
+}
+
+.container-bot .try-for-free h1{
+    font-size: 1.6rem;
+    color: #61082b;
 }

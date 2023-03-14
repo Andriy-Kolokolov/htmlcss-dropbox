@@ -234,22 +234,23 @@ section.client-reviews .container * {
 
 /*  design-it section   */
 section.design-it .container-top {
+    width: 100%;
     display: flex;
 }
 
 .design-it .box-big {
-    flex: 0 1 33%;
+    flex: 0 1 calc(100% / 3);
     aspect-ratio: 1 / 1;
     display: flex;
     flex-wrap: wrap;
 }
 
-.design-it .box-big.left .box-small {
+.design-it .box-big .box-small {
     flex: 0 1 50%;
     position: relative;
 }
 
-.design-it .container-top img {
+.design-it .box-big .box-small img {
     max-width: 50%;
     position: absolute;
     top: 50%;
@@ -257,3 +258,41 @@ section.design-it .container-top {
     transform: translate(-50%, -50%);
 }
 
+.design-it .box-big.middle {
+    padding: 2.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.design-it .box-big.middle * {
+    margin-bottom: 2.5rem;
+}
+
+.design-it .box-big.middle hr {
+    width: 20%;
+}
+
+.design-it .box-big.middle img {
+    max-width: 50%;
+}
+
+.design-it .container-bot {
+    height: 15rem;
+    display: flex;
+    justify-content: center;
+}
+
+.container-bot .container {
+    width: var(--main-container-width-size);
+}
+
+.container-bot .try-for-free {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-bot .try-for-free * {
+    flex: 0 1 40%;
+}
