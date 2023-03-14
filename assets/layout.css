@@ -52,6 +52,7 @@
 .jumbo {
     display: flex;
     justify-content: center;
+    margin-top: 4rem;
 }
 
 .jumbo .container {
@@ -60,7 +61,7 @@
     align-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 3rem;
+    gap: 2rem;
     padding: 4rem;
 }
 
@@ -98,3 +99,43 @@
 .section.prices .container {
     width: 60%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
