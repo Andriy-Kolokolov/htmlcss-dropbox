@@ -125,12 +125,13 @@ section.prices .subscription-period .radio{
 
 .subscription-choice-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 2rem;
 }
 
 .subscription-choice-container .box {
-    flex: 0 1 33%;
+    flex: 1 1 calc((100% - 2rem * 2) / 3);
 }
 
 .subscription-choice-container .box > div:first-child {
@@ -149,6 +150,14 @@ section.prices .subscription-period .radio{
     max-width: 20%;
     margin-bottom: 1rem;
 }
+
+.box.enterprise .pricing {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
 
 
 

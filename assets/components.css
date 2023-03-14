@@ -27,4 +27,8 @@
     color: white;
 }
 
+.box.enterprise .pricing .btn {
+    color: white;
+}
+
 /*  todo: fix bug when button cover entire div line (see web page)*/
