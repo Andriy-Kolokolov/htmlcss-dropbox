@@ -77,3 +77,23 @@ section.client-reviews .container h1 {
     font-size: 2rem;
     margin-top: 1.5rem;
 }
+
+/*  section design-it  */
+.design-it .box-small img{
+    filter: invert(100%);
+}
+
+    /*  box left side colors  */
+.design-it .box-big.left .box-small:first-child {
+    background-color: #a1d19a;
+    border: .8rem solid #cfe7cb;
+}
+.design-it .box-big.left .box-small:nth-child(2) {
+    background-color: #60082b;
+}
+.design-it .box-big.left .box-small:nth-child(3) {
+    background-color: #0092cc;
+}
+.design-it .box-big.left .box-small:last-child {
+    background-color: #fd1c1c;
+}

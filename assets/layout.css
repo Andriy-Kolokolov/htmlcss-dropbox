@@ -1,5 +1,5 @@
 :root {
-    --main-container-size: 50%
+    --main-container-width-size: 50%
 }
 
 section {
@@ -109,7 +109,7 @@ section.prices {
 }
 
 section.prices .container {
-    max-width: var(--main-container-size);
+    max-width: var(--main-container-width-size);
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -168,7 +168,7 @@ section.find-partner {
 }
 
 section.find-partner .container {
-    max-width: var(--main-container-size);
+    max-width: var(--main-container-width-size);
 }
 
 .find-partner .box {
@@ -196,7 +196,7 @@ section.dropbox-functionality {
 }
 
 section.dropbox-functionality .container {
-    max-width: var(--main-container-size);
+    max-width: var(--main-container-width-size);
     display: flex;
     flex-wrap: wrap;
     gap: 3rem;
@@ -223,7 +223,7 @@ section.client-reviews {
 }
 
 section.client-reviews .container {
-    width: var(--main-container-size);
+    width: var(--main-container-width-size);
     display: flex;
     flex-direction: column;
 }
@@ -231,3 +231,29 @@ section.client-reviews .container {
 section.client-reviews .container * {
     margin-top: 1.5rem;
 }
+
+/*  design-it section   */
+section.design-it .container-top {
+    display: flex;
+}
+
+.design-it .box-big {
+    flex: 0 1 33%;
+    aspect-ratio: 1 / 1;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.design-it .box-big.left .box-small {
+    flex: 0 1 50%;
+    position: relative;
+}
+
+.design-it .container-top img {
+    max-width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
