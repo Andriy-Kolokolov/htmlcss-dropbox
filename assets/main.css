@@ -29,8 +29,8 @@ ul li {
     font-weight: bold;
 }
 
-.section.prices .title {
-    font-size: 1.5rem;
+section.prices .title {
+    font-size: 1.7rem;
     font-weight: bold;
 }
 
@@ -39,7 +39,24 @@ section.prices .subscription-box {
 }
 
 section .subscription-choice-container .option {
+    text-align: center;
     border-width: 1px 1px 0 1px;
     border-style: solid;
     border-color: rgba(0, 0, 0, 0.3);
+}
+
+.subscription-box hr{
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.subscription-box .pricing div:nth-last-child(1) {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.subscription-box .privileges i {
+    color: #0061ff;
+}
+
+.subscription-box .privileges div:first-child {
+    font-weight: bold;
 }
