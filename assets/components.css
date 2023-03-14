@@ -14,3 +14,17 @@
     color: black;
     background-color: white;
 }
+
+.prices .subscription-period .radio:before {
+    cursor: pointer;
+    margin-right: 5px;
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    border: 5px #0463fd solid;
+    border-radius: 100%;
+    content: 'oo';
+    color: white;
+}
+
+/*  todo: fix bug when button cover entire div line (see web page)*/

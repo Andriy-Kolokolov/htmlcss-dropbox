@@ -96,9 +96,37 @@
 }
 
 /*  SECTION PRICES  */
-.section.prices .container {
+section.prices .container {
     width: 60%;
 }
+
+section.prices .container div {
+    padding: .5rem;
+}
+
+section.prices {
+    display: flex;
+    justify-content: center;
+}
+
+.prices .subscription-period {
+    display: flex;
+    flex-direction: row;
+}
+
+.prices .subscription-period div {
+    margin-right: 3rem;
+}
+
+.subscription-choice-container {
+    display: flex;
+}
+
+.subscription-choice-container .subscription-box > div {
+    margin-bottom: 1rem;
+}
+
+
 
 
 
