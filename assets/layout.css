@@ -1,5 +1,9 @@
+:root {
+    --main-container-size: 50%
+}
+
 section {
-    margin-top: 10rem;
+    margin-top: 8rem;
 }
 
 .navbar-header {
@@ -105,7 +109,7 @@ section.prices {
 }
 
 section.prices .container {
-    max-width: 50%;
+    max-width: var(--main-container-size);
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -157,6 +161,33 @@ section.prices .subscription-period .radio{
     align-items: center;
 }
 
+/*  section find partner  */
+section.find-partner {
+    display: flex;
+    justify-content: center;
+}
+
+section.find-partner .container {
+    max-width: var(--main-container-size);
+}
+
+.find-partner .box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.find-partner .box img {
+    flex: 0 1 60%;
+    max-width: 140%;
+}
+
+.find-partner .box div{
+    flex: 0 1 40%;
+}
+
+.find-partner .box div:last-child *{
+    margin-top: 1.5rem;
+}
 
 
 
