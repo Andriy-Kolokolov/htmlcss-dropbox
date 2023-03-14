@@ -189,44 +189,29 @@ section.find-partner .container {
     margin-top: 1.5rem;
 }
 
+/*  section drop box functionality  */
+section.dropbox-functionality {
+    display: flex;
+    justify-content: center;
+}
 
+section.dropbox-functionality .container {
+    max-width: var(--main-container-size);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
 
+.dropbox-functionality .container .box {
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 calc((100% - 3rem * 2) / 3);
+}
 
+.dropbox-functionality .container .box img{
+    max-width: 100%;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.dropbox-functionality .container .box * {
+    margin-bottom: 1rem;
+}
