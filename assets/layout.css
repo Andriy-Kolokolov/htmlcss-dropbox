@@ -263,7 +263,7 @@ section.design-it .container-top {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    overflow-x: scroll;
+    overflow: auto;
 }
 
 .design-it .box-big.middle * {
@@ -297,4 +297,39 @@ section.design-it .container-top {
 
 .container-bot .try-for-free * {
     flex: 0 1 40%;
+}
+
+/*  section FAQ */
+section.faq {
+    display: flex;
+    justify-content: center;
+}
+
+section.faq .container {
+    max-width: var(--main-container-width-size);
+    display: flex;
+    flex-direction: column;
+    /*gap: 3rem;*/
+}
+
+.faq .expandable .question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0 2rem 0;
+}
+
+.faq .expandable {
+    margin: 1.5rem 0 1.5rem 0;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.faq .expandable .content {
+    height: 0;
+}
+
+footer {
+    height: 25rem;
 }

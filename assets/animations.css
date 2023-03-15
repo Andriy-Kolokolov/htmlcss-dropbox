@@ -7,3 +7,14 @@
 .btn:hover {
     text-decoration: underline;
 }
+
+.faq .expandable .question {
+    cursor: pointer;
+}
+
+.faq .expandable:hover > .content {
+    transition: 1.5s;
+    height: 100%;
+    overflow: auto;
+    padding: 1rem 0 1rem 0;
+}
