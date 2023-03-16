@@ -86,7 +86,6 @@ section.client-reviews .container h1 {
     /*  box left side  */
 .design-it .box-big.left .box-small:first-child {
     background-color: #a1d19a;
-    border: .8rem solid #cfe7cb;
 }
 .design-it .box-big.left .box-small:nth-child(2) {
     background-color: #60082b;

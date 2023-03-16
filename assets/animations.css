@@ -18,3 +18,9 @@
     overflow: auto;
     padding: 1rem 0 1rem 0;
 }
+
+.design-it .box-small:hover {
+    cursor: pointer;
+    transition: .5s;
+    border: .8rem solid rgba(255, 255, 255, 0.5);
+}
